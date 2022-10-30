@@ -1,0 +1,15 @@
+openapi: 3.0.2
+info:
+  title: Store Management Back-End Application
+  version: "1.0"
+servers:
+- url: https://localhost:9082/v1
+paths:
+  /units:
+    get:
+      responses:
+        "200":
+          description: OK
+      x-accepts: application/json
+components:
+  schemas: {}

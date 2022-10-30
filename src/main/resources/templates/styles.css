@@ -1,0 +1,22 @@
+.header {
+    height: 200px;
+    width: auto;
+    background: yellowgreen;
+}
+
+.menu-bar {
+    height: 50px;
+    width: auto;
+    background: rgb(153, 36, 177);
+}
+.navigate {
+    height: 500px;
+    width: 200px;
+    background: rgb(14, 184, 57);
+}
+
+.footer {
+    height: 200px;
+    width: auto;
+    background: rgb(161, 56, 14);
+}
