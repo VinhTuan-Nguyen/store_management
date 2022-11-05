@@ -1,0 +1,31 @@
+openapi: "3.0.2"
+
+info:
+  title: API Title
+  version: "1.0"
+
+servers:
+  - url: https://localhost:8092/v1
+
+paths:
+  /units:
+    get:
+      operationId: getAllUnits
+      responses:
+        "200":
+          $ref: "./responses/responses.yaml#/200"
+        "500":
+          $ref: "./responses/responses.yaml#/500"
+
+components:
+  headers:
+    client_id:
+      schema:
+        type: string
+    client_secret:
+      schema:
+        type: string
+
+  links:
+    response:
+      $ref: "./responses/responses.raml"

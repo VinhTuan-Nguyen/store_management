@@ -1,0 +1,16 @@
+"200":
+  description: "OK"
+  content:
+    application/json:
+      example: {
+        "message": "success",
+        "status": true
+      }
+"500":
+  description: "SERVER INTERNAL ERROR"
+  content:
+    application/json:
+      example: {
+        "message": "server internal error",
+        "status": false
+      }
